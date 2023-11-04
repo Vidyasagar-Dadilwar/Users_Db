@@ -1,7 +1,7 @@
 <?php
 
 require 'function.php';
-require 'form.html';
+require 'index.html';
 
 $pdo = connectToDb();
 
