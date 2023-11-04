@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(120deg, #0072ff, #00c6ff);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.row {
+    padding-top: 3%;
+}
+
+.form-container {
+    background: rgba(0, 0, 0, 0.6);
+    /* Background color with transparency */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-container h1 {
+    text-align: center;
+}
+
+.form-container .form-group {
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    color: #fff;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+    color: #fff;
+}
+.form-select option{
+    background-color: black;
+}
+.form-container input::placeholder,
+.form-container textarea::placeholder {
+    color: #ccc;
+}
+
+.form-container button {
+    background-color: #0072ff;
+    color: #fff;
+}
+
+.form-container button:hover {
+    background-color: #00c6ff;
+}
+
+h1 {
+    font-family: 'cursive';
+}
